@@ -211,7 +211,7 @@ const AuthForm = ({ type }: { type: string }) => {
           <footer className="flex flex-center gap-1">
             <p>
               {type == "sign-in" ? (
-                <>Don't have an account? </>
+                <>Don&apos;'t have an account? </>
               ) : (
                 <>Already have an account? </>
               )}
