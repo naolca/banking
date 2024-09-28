@@ -46,7 +46,7 @@ const AuthForm = ({ type }: { type: string }) => {
   const onSubmit = async (data: z.infer<typeof formSchema>) => {
     setIsLoading(true);
 
-    console.log("here");
+    // console.log("here");
     // await new Promise((resolve) => setTimeout(resolve, 2000));
     try {
       // Sign up with Appwrite and create Plaid Link token
